@@ -19,7 +19,13 @@ Create these components:
 
 ## Task 2
 
-Allow `BreakFast` to take a `overwrite` prop
+Allow `BreakFast` to take an `overwrite` prop
+
+```jsx
+<Breakfast overwrite="vegan sausages">
+  <Food foodName="vegan bacon"
+</Breakfast>
+```
 
 If `overwrite` is passed, all `foodName` props are overwritten to be this prop. If it is not passed then do not overwrite the `foodName` props.
 
