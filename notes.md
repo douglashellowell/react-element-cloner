@@ -33,9 +33,9 @@ React provides a safe way to interact with and manage children - including passi
 
 ---
 
-In this example we're going to create a `FlowerList` component that passes a new `flower` prop to each of its children 🌻
+In this example we're going to create a `FlowerList` component that passes a new `flower` prop to each of its children 🌻 
 
-Before we go any further we need to ensure that `children` is an array - even if one child is passed.
+Before we go any further we need to ensure that `children` is an array - even if only one child is passed.
 
 To do this we can use the `React.Children.toArray()` method
 
