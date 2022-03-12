@@ -21,7 +21,7 @@ Create these components:
 
 `Food` displays the `foodName` string passed to it
 
-`Breakfast` - **overwrites** the `foodName` prop to be `"coffee"`
+`Breakfast` - passes a `foodName` prop to each of its children - changing each to be `"coffee"`
 
 ## Task 2
 
