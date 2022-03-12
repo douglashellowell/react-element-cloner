@@ -73,7 +73,6 @@ const FlowersList = ({ children }) => {
 
   const clonedChildren = childrenArray.map((child) => {
     const clone = cloneElement(child, {
-      // props will be shallow merged
       flower: 'tulips',
     });
 
@@ -84,11 +83,11 @@ const FlowersList = ({ children }) => {
 };
 ```
 
-> (over-declaring variables for demonstration purposes - feel free to chain these methods/return straight away)
+> (I'm over-declaring variables for demonstration purposes - feel free to chain these methods/return straight away)
 
 [React Docs - cloneElement](https://reactjs.org/docs/react-api.html#cloneelement)
 
-In the above code we have passed a `flower` prop with `'tulips'` hard-coded in.
+In the above code we have passed a `flower` prop to each child with `'tulips'` hard-coded in.
 
 Now any child we pass to `<FlowerList>` will have that prop!
 
