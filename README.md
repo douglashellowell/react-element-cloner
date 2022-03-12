@@ -53,3 +53,5 @@ When the `onChange` event of the `input` is triggered the `Spy` component will `
   <input type="text" onChange={(e) => setInput(e.target.value)} />
 </Spy>
 ```
+
+Ask Doug for a hint if you want one!
