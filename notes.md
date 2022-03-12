@@ -2,7 +2,7 @@
 
 Composition is a useful pattern when we want to make re-usable containers for other components
 
-When nesting components inside a JSX tag we can access and render these elements on `props.children`
+When nesting components inside a JSX tag we can access and render the elements on `props.children`
 
 ```jsx
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
 };
 
 const PrettyBorder = ({ children }) => {
-  // deconstructing children off of props
+  // destructuring children off of props
   return <div className="pretty-border">{children}</div>;
 };
 ```
