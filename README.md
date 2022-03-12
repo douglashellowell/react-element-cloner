@@ -29,11 +29,13 @@ Allow `BreakFast` to take an `overwrite` prop
 
 ```jsx
 <Breakfast overwrite="vegan sausages">
-  <Food foodName="hash browns"
+  <Food foodName="hash browns" />
 </Breakfast>
 ```
 
-If `overwrite` is passed, all `foodName` props are overwritten to be this prop. If it is not passed then do not overwrite the `foodName` props.
+If `overwrite` is passed, all `foodName` props are overwritten to be this prop. 
+
+If it is not passed then do not overwrite the `foodName` props.
 
 ## Task 3
 
