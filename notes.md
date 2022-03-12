@@ -29,7 +29,7 @@ if we were to `console.log(children)` we would either see a single component obj
 Object { "$$typeof": Symbol("react.element"), type: "p", key: null, ref: null, props: {…}, _owner: {…}, _store: {…}, … }
 ```
 
-React provides a safe way to interact and manage children - including passing/overwriting props and children - which gives us an opportunity to write some more advanced React Components!
+React provides a safe way to interact with and manage children - including passing/overwriting props and children - which gives us an opportunity to write some more advanced React Components!
 
 ---
 
