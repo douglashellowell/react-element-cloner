@@ -103,6 +103,8 @@ const App = () => {
       <Flower flower="roses" />
     </FlowerList>
   );
-  // even though we have passed different flowers ALL will be overwritten!
+  // even though we have passed different flowers ALL will be overwritten by `FlowerList`!
 };
 ```
+
+The page now shows: "tulips tulips tulips" 🌷🌷🌷
