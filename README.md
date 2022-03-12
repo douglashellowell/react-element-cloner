@@ -8,6 +8,8 @@ fork this repo and create a react app in this directory
 
 `npx create-react-app .`
 
+Ask Doug for a hint if you want one!
+
 ## Task 1
 
 Create these components:
@@ -60,4 +62,21 @@ When the `onChange` event of the `input` is triggered the `Spy` component will `
 </Spy>
 ```
 
-Ask Doug for a hint if you want one!
+
+## Task 5 [very advanced]
+
+Create a `DeepRename` component that takes a `message` prop. This component overwrites any text with this message **no matter how deeply nested in the component tree**
+
+```jsx
+<DeepRename message="gotcha!">
+  <div>
+    <div>
+     <div>
+       <p>change me!</p>
+     </div>
+    </div>
+  </div>
+</DeepRename>
+```
+
+hint: `change me!` is a child of the `<p>` tag and it's data type is a `string`!
