@@ -23,7 +23,7 @@ Allow `BreakFast` to take an `overwrite` prop
 
 ```jsx
 <Breakfast overwrite="vegan sausages">
-  <Food foodName="vegan bacon"
+  <Food foodName="hash browns"
 </Breakfast>
 ```
 
