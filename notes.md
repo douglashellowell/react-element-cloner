@@ -33,7 +33,7 @@ React provides a safe way to interact and manage children - including passing/ov
 
 ---
 
-In this example we're going to pass a new `flower` prop to each child
+In this example we're going to create a `FlowerList` component that passes a new `flower` prop to each of its children 🌻
 
 Before we go any further we need to ensure that `children` is an array - even if one child is passed.
 
