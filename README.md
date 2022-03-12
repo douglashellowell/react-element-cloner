@@ -42,3 +42,14 @@ Create a `ToggleInputs` component that displays a button which, when clicked, to
   </select>
 </ToggleInputs>
 ```
+
+## Task 4 [advanced]
+
+Create a `Spy` component which wraps an `input` element. 
+When the `onChange` event of the `input` is triggered the `Spy` component will `console.log()` the value before inputs `onChange` event is triggered
+
+```jsx
+<Spy>
+  <input type="text" onChange={(e) => setInput(e.target.value)} />
+</Spy>
+```
