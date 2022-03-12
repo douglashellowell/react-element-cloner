@@ -37,7 +37,7 @@ If `overwrite` is passed, all `foodName` props are overwritten to be this prop. 
 
 ## Task 3
 
-Create a `ToggleInputs` component that displays a button which, when clicked, toggles whether or not it's inputs are `disabled`.
+Create a `ToggleInputs` component that displays a button which, when clicked, toggles whether or not it's children (input/button/select/etc...) are `disabled`.
 
 ```jsx
 <ToggleInputs>
