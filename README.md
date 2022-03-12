@@ -4,9 +4,7 @@ Read `notes.md` for help!
 
 fork this repo and create a react app in this directory 
 
-`yarn create react-app .`
-
-`npx create-react-app .`
+`yarn create react-app .` or `npx create-react-app .`
 
 Ask Doug for a hint if you want one!
 
