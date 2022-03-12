@@ -2,6 +2,12 @@
 
 Read `notes.md` for help!
 
+fork this repo and create a react app in this directory 
+
+`yarn create react-app .`
+
+`npx create-react-app .`
+
 ## Task 1
 
 Create these components:
