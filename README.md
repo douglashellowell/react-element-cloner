@@ -78,3 +78,6 @@ Create a `DeepRename` component that takes a `message` prop. This component over
   </div>
 </DeepRename>
 ```
+hint: `change me!` is a child of the `<p>` tag and it's data type is a `string`! For this challenge assume this string has no siblings
+
+tip: practice replacing `change me!` in a non-nested `p` tag before trying to solve it with nesting
