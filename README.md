@@ -41,7 +41,7 @@ Create a `ToggleInputs` component that displays a button which, when clicked, to
 
 ```jsx
 <ToggleInputs>
-  <input type="text" placeholder="tell me a fun fact!" />
+  <input type="text" placeholder="tell me a joke!" />
   <select name="type" id="joke-type">
     <option>funny</option>
     <option>hilarious</option>
