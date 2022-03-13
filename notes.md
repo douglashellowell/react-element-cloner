@@ -156,3 +156,42 @@ const FlowersList = ({ children }) => {
 Now only "lilies" will be changed to tulips
 
 sunflowers tulips roses! 🌻 🌷 🌹
+
+---
+
+So far we have been using the `children` prop which could be any number of components and it would be tricky to distinguish between them or target specific ones.
+
+Instead of nesting children inside our component we can instead provide components on named keys.
+
+> Note we are **not** just passing the reference to a _function_ but rather a created component using angle brackets - `<LikeThis />`
+
+```jsx
+const App = () => {
+  return <FlowerDisplay flower={<Flower />} container={<Vase />} />;
+  // NB: vase is pronounced "vase"
+};
+```
+
+With this setup we can target these components directly
+
+> This time we know it's only ever going to _one_ component so we don't need use `React.Children.toArray`
+
+```jsx
+const FlowerDisplay = ({ flower, container }) => {
+  // lets pass a 'flower' prop to the flower
+  const flowerClone = createClone(flower, { flower: 'lilies' });
+
+  // and a water and plantFood prop to the container (which is the <Vase /> from above)
+  const containerClone = createClone(container, {
+    water: true,
+    plantFood: true,
+  });
+
+  return (
+    <>
+      {flowerClone}
+      {containerClone}
+    </>
+  );
+};
+```
