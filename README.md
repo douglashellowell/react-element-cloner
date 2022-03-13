@@ -81,3 +81,15 @@ Create a `DeepRename` component that takes a `message` prop. This component over
 hint: `change me!` is a child of the `<p>` tag and it's data type is a `string`! For this challenge assume this string has no siblings
 
 tip: practice replacing `change me!` in a non-nested `p` tag before trying to solve it with nesting
+
+## Extras - add your own ideas below and put in a pull request!
+
+## MovieList
+
+Create a `MovieList` component which renders `Movie` components from an array. The `MoviesList` component should have a "limit" `select` element which allows the user to choose how many Movies to render. The children can remain unchanged.
+
+```jsx
+<MovieList>
+  {movies.map(movie => <Movie movie={movie}/>)}
+</MovieList>
+```
