@@ -152,3 +152,7 @@ const FlowersList = ({ children }) => {
   return <div>{clonedChildren}</div>;
 };
 ```
+
+Now only "lilies" will be changed to tulips
+
+sunflowers tulips roses! 🌻 🌷 🌹
