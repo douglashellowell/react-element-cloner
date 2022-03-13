@@ -195,3 +195,9 @@ const FlowerDisplay = ({ flower, container }) => {
   );
 };
 ```
+
+---
+
+In our examples above we have hard-coded in the values we are passing as props. But these values could come from state, api calls - whatever!
+
+Now head over to `README.md` and have a go at the tasks, have fun!
