@@ -114,7 +114,7 @@ The page now shows: "tulips tulips tulips" 🌷🌷🌷
 
 Because we have access to each `child` object we have access to their properties. This is useful if we want to use values already on the child before creating the clone
 
-Let's allow the `Flower` children to have a `locked` prop - stopping `FlowerList` from passing a new `flower` prop
+Let's allow the `Flower` children to have a `locked` prop - which we will use to stop `FlowerList` from passing a new `flower` prop
 
 ```js
 const Flower = ({ flower }) => <p>{flower}</p>;
