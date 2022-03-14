@@ -86,7 +86,7 @@ tip: practice replacing `change me!` in a non-nested `p` tag before trying to so
 
 ## MovieList
 
-Create a `MovieList` component which renders `Movie` components from an array. The `MoviesList` component should have a "limit" `<input type="number" />` element which allows the user to choose how many Movies to render. The children can remain unchanged/uncloned.
+Create a `MovieList` component which renders `Movie` components from an array. `Movie`s **only** functionality is to display the movie name. `MovieList` adds functionality to select a movie - the selected movie will have it's background highlighted
 
 ```jsx
 <MovieList>
