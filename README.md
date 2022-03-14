@@ -84,12 +84,3 @@ tip: practice replacing `change me!` in a non-nested `p` tag before trying to so
 
 ## Extras - add your own ideas below and put in a pull request!
 
-## MovieList
-
-Create a `MovieList` component which renders `Movie` components from an array. `Movie`s **only** functionality is to display the movie name. `MovieList` adds functionality to select a movie - the selected movie will have it's background highlighted
-
-```jsx
-<MovieList>
-  {movies.map(movie => <Movie movie={movie}/>)}
-</MovieList>
-```
